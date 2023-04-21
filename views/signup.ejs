@@ -1,0 +1,30 @@
+<%- include("partials/header") %>
+    <div class="heading">
+        <h1>Sign Up Form</h1>
+    </div>
+    <div class="form-details">
+        <form action="/signup" method="post">
+            <div class="userNameField">
+                <label for="signUserName">Enter Your Name : </label><br>
+                <input type="text" name="signUserName" id="userNameInput" autocomplete="off"  required>
+            </div><br>
+            <div class="passwordField">
+                <label for="signPassword1">Enter your password : </label><br>
+                <input type="password" name="signPassWord1" id="passwordInput" autocomplete="off"  required>
+            </div><br>
+            <div class="passwordField">
+                <label for="signPassword2">Enter your password : </label><br>
+                <input type="password" name="signPassWord2" id="passwordInput" autocomplete="off" required>
+            </div><br>
+            <div class="submitField">
+                <button type="submit">Sign Up</button>
+            </div>
+            <div class="signUpField">
+                <p>Already have an account? <a href="/">Log In</a></p>
+                <p class="error"><%=errorMsg%></p>
+            </div>
+            
+        </form>
+    </div>
+
+<%- include("partials/footer") %>
