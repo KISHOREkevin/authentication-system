@@ -1,5 +1,5 @@
 # authentication-system
-<h2>Its an simple suthentication sysytem created using : </h2>
+<h2>Its an simple authentication sytem created using : </h2>
 <h4>In Front-End : </h4>
 <ul>
   <li>HTML</li>
